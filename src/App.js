@@ -5,15 +5,15 @@ import "./App.css";
 // learning react
 
 //functionalComponentsPractice
-import MyInfo from "./components/learning react/1.functionalComponents/MyInfo";
+import MyInfo from "./components/learning_react/1.functionalComponents/MyInfo";
 //parentChildComponets
-import Parent from "./components/learning react/2.parentChildComponets/Parent";
+import Parent from "./components/learning_react/2.parentChildComponets/Parent";
 //parentChildComponets
-import NavbarPractice from "./components/learning react/3.parentChildComponets/NavbarPractice";
-import MainPractice from "./components/learning react/3.parentChildComponets/MainPractice";
-import FooterPractice from "./components/learning react/3.parentChildComponets/FooterPractice";
-import ToDoAppPhase1 from "./components/learning react/4.todoAppPhase1/ToDoAppPhase1";
-import JsxJavaScript from "./components/learning react/5.jsxToJavascriptAndBack/JsxJavaScript";
+import NavbarPractice from "./components/learning_react/3.parentChildComponets/NavbarPractice";
+import MainPractice from "./components/learning_react/3.parentChildComponets/MainPractice";
+import FooterPractice from "./components/learning_react/3.parentChildComponets/FooterPractice";
+import ToDoAppPhase1 from "./components/learning_react/4.todoAppPhase1/ToDoAppPhase1";
+import JsxJavaScript from "./components/learning_react/5.jsxToJavascriptAndBack/JsxJavaScript";
 //=======================================================================================================================
 function App() {
   return (
