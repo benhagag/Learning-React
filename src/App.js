@@ -16,6 +16,7 @@ import ToDoAppPhase1 from "./components/learning_react/4.todoAppPhase1/ToDoAppPh
 import JsxJavaScript from "./components/learning_react/5.jsxToJavascriptAndBack/JsxJavaScript";
 import InlineStyles from "./components/learning_react/6.inlineStylesWithStyleProperty/InlineStyles";
 import TodoAppPhase2 from "./components/learning_react/7.todoAppPhase2/TodoAppPhase2";
+import Props from "./components/learning_react/8.props/Props";
 //=======================================================================================================================
 function App() {
   return (
@@ -53,7 +54,8 @@ function App() {
       <InlineStyles />
       <h1> 7. Todo App Phase 2</h1>
       <TodoAppPhase2 />
-
+      <h1 className="subject-learn">Props</h1>
+      <Props />
       {/* ============================================================================= */}
     </div>
   );
