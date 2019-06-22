@@ -15,6 +15,7 @@ import FooterPractice from "./components/learning_react/3.parentChildComponets/F
 import ToDoAppPhase1 from "./components/learning_react/4.todoAppPhase1/ToDoAppPhase1";
 import JsxJavaScript from "./components/learning_react/5.jsxToJavascriptAndBack/JsxJavaScript";
 import InlineStyles from "./components/learning_react/6.inlineStylesWithStyleProperty/InlineStyles";
+import TodoAppPhase2 from "./components/learning_react/7.todoAppPhase2/TodoAppPhase2";
 //=======================================================================================================================
 function App() {
   return (
@@ -50,6 +51,8 @@ function App() {
         6. Inline Styles with the Style property
       </h1>
       <InlineStyles />
+      <h1> 7. Todo App Phase 2</h1>
+      <TodoAppPhase2 />
 
       {/* ============================================================================= */}
     </div>

@@ -14,16 +14,11 @@ function InlineStyles() {
   const date = new Date();
   const hour = date.getHours();
 
-  let timeDay;
-
   if (hour < 12) {
-    timeDay = "morning";
     styleDayTime.color = "yellow";
   } else if (hour >= 12 && hour < 17) {
-    timeDay = "afternoon";
     styleDayTime.color = "green";
   } else {
-    timeDay = "night";
     styleDayTime.color = "blue";
   }
   return (
