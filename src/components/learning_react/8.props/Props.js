@@ -2,6 +2,11 @@ import React from "react";
 import ContactCard from "./ContactCard";
 import Cars from "./Cars";
 
+/*
+Component CotactCard and Car get props and use it in the right place !
+
+*/
+
 function Props() {
   return (
     <div className="cotacts">
