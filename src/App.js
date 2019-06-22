@@ -1,7 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
+// learning react
+
+//functionalComponentsPractice
+import MyInfo from "./components/learning react/1.functionalComponentsPractice/MyInfo";
+//parentChildComponets
+import Parent from "./components/learning react/2.parentChildComponets/Parent";
+//parentChildComponets
+import NavbarPractice from "./components/learning react/3.parentChildComponets/NavbarPractice";
+import MainPractice from "./components/learning react/3.parentChildComponets/MainPractice";
+import FooterPractice from "./components/learning react/3.parentChildComponets/FooterPractice";
+import ToDoAppPhase1 from "./components/learning react/4.todoAppPhase1/ToDoAppPhase1";
+import JsxJavaScript from "./components/learning react/5.jsxToJavascriptAndBack/JsxJavaScript";
+//=======================================================================================================================
 function App() {
   return (
     <div className="App">
@@ -19,6 +32,20 @@ function App() {
           Learn React
         </a>
       </header>
+      {/* learning react */}
+      <h1 className="subject-learn">1. functional components practice</h1>
+      <MyInfo />
+      <h1 className="subject-learn">2. parent child componenets</h1>
+      <Parent />
+      <h1 className="subject-learn">3. parent child componenets</h1>
+      <NavbarPractice />
+      <MainPractice />
+      <FooterPractice />
+      <h1 className="subject-learn">4. To Do App Phase 1</h1>
+      <ToDoAppPhase1 />
+      <h1 className="subject-learn">5. JSX To JavaScript And Back</h1>
+      <JsxJavaScript />
+      {/* ============================================================================= */}
     </div>
   );
 }
