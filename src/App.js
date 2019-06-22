@@ -5,7 +5,7 @@ import "./App.css";
 // learning react
 
 //functionalComponentsPractice
-import MyInfo from "./components/learning react/1.functionalComponentsPractice/MyInfo";
+import MyInfo from "./components/learning react/1.functionalComponents/MyInfo";
 //parentChildComponets
 import Parent from "./components/learning react/2.parentChildComponets/Parent";
 //parentChildComponets
