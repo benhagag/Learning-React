@@ -1,0 +1,8 @@
+.joke {
+  float: left;
+  overflow: hidden;
+  margin: 20px;
+  background-color: pink;
+  width: 25%;
+  height: 200px;
+}
