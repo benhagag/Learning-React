@@ -1,6 +1,7 @@
 import React from "react";
 import JoKeComponentData from "./JokeComponentData";
 import mappingData from "./mappingData"; // LIKE API
+import Mapping from "./mappingComponentsPractice/Mapping";
 
 function MappingComponent() {
   const nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -19,7 +20,10 @@ function MappingComponent() {
   // =========================================================================================================
   console.log(mappingData);
 
-  const jokesComponenet = mappingData.map(map => (
+  // filter all those who does not have question !
+  let mappingDataFilterd = mappingData.filter(map => map.question);
+
+  const jokesComponenet = mappingDataFilterd.map(map => (
     <JoKeComponentData
       key={map.id}
       id={map.id}
@@ -30,7 +34,15 @@ function MappingComponent() {
 
   console.log(jokesComponenet);
 
-  return <div> {jokesComponenet} </div>;
+  return (
+    <div>
+      {jokesComponenet}
+      <div>
+        <h1> Practice Mapping component ! </h1>
+        <Mapping />
+      </div>
+    </div>
+  );
 }
 
 export default MappingComponent;
