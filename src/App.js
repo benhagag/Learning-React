@@ -19,6 +19,8 @@ import TodoAppPhase2 from "./components/learning_react/7.todoAppPhase2/TodoAppPh
 import Props from "./components/learning_react/8.props/Props";
 import MainComponenet from "./components/learning_react/9.propsAndStyling/MainComponent";
 import MappingComponent from "./components/learning_react/11.mappingComponenets/MappingComponent";
+import TodoAppPhase3 from "./components/learning_react/12.todoAppPhase3/TodoAppPhase3";
+import Class from "./components/learning_react/13.class-basedComponents/Class";
 //=======================================================================================================================
 function App() {
   return (
@@ -56,12 +58,16 @@ function App() {
       <InlineStyles />
       <h1> 7. Todo App Phase 2</h1>
       <TodoAppPhase2 />
-      <h1 className="subject-learn">Props</h1>
+      <h1 className="subject-learn">8. Props</h1>
       <Props />
-      <h1 className="subject-learn">Props And Styling</h1>
+      <h1 className="subject-learn">9. Props And Styling</h1>
       <MainComponenet />
-      <h1 className="subject-learn">Mapping Componenets</h1>
+      <h1 className="subject-learn">11. Mapping Componenets</h1>
       <MappingComponent />
+      <h1 className="subject-learn">12. Todo App Phase 3</h1>
+      <TodoAppPhase3 />
+      <h1>13. Class componenets! </h1>
+      <Class />
       {/* ============================================================================= */}
     </div>
   );
