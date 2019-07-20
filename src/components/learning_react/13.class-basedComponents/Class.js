@@ -1,4 +1,5 @@
 import React from "react";
+import ClassBasedComponenet from "./classBasedComponenetPractice/ClassBasedComponenetPractice";
 
 class Class extends React.Component {
   myMethod() {
@@ -17,6 +18,7 @@ class Class extends React.Component {
         <h1>This is a class Componenet! </h1>
         <p>{dateString}</p>
         {style}
+        <ClassBasedComponenet />
       </div>
     );
   }
