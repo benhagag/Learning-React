@@ -21,6 +21,8 @@ import MainComponenet from "./components/learning_react/9.propsAndStyling/MainCo
 import MappingComponent from "./components/learning_react/11.mappingComponenets/MappingComponent";
 import TodoAppPhase3 from "./components/learning_react/12.todoAppPhase3/TodoAppPhase3";
 import Class from "./components/learning_react/13.class-basedComponents/Class";
+import State from "./components/learning_react/14.state/State";
+
 //=======================================================================================================================
 function App() {
   return (
@@ -68,6 +70,8 @@ function App() {
       <TodoAppPhase3 />
       <h1>13. Class componenets! </h1>
       <Class />
+      <h1>14. State </h1>
+      <State />
       {/* ============================================================================= */}
     </div>
   );
