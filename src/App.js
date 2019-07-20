@@ -22,6 +22,7 @@ import MappingComponent from "./components/learning_react/11.mappingComponenets/
 import TodoAppPhase3 from "./components/learning_react/12.todoAppPhase3/TodoAppPhase3";
 import Class from "./components/learning_react/13.class-basedComponents/Class";
 import State from "./components/learning_react/14.state/State";
+import TodoAppPhase4 from "./components/learning_react/15.todoAppPhase4/TodoAppPhase4";
 
 //=======================================================================================================================
 function App() {
@@ -72,6 +73,8 @@ function App() {
       <Class />
       <h1>14. State </h1>
       <State />
+      <h1> Todo App Phase 4</h1>
+      <TodoAppPhase4 />
       {/* ============================================================================= */}
     </div>
   );
