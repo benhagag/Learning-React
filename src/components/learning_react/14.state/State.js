@@ -1,6 +1,7 @@
 import React from "react";
 import ChildState from "./ChildState";
 import StatePractice from "./practice/StatePractice";
+import StatePractice2 from "./practice2/StatePractice2";
 
 class State extends React.Component {
   constructor() {
@@ -18,6 +19,8 @@ class State extends React.Component {
         <ChildState text={this.state.textForChild} />
         <h2>This is state preactice</h2>
         <StatePractice />
+        <h2>This is state preactice part 2</h2>
+        <StatePractice2 />
       </div>
     );
   }
