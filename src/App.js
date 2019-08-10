@@ -24,6 +24,7 @@ import Class from "./components/learning_react/13.class-basedComponents/Class";
 import State from "./components/learning_react/14.state/State";
 import TodoAppPhase4 from "./components/learning_react/15.todoAppPhase4/TodoAppPhase4";
 import HandlingEvents from "./components/learning_react/16.handlingEvents/HandlingEvents";
+import TodoAppPhase5 from "./components/learning_react/17.todoAppPhase5/TodoAppPhase5";
 
 //=======================================================================================================================
 function App() {
@@ -78,6 +79,8 @@ function App() {
       <TodoAppPhase4 />
       <h1>16. Handling Events</h1>
       <HandlingEvents />
+      <h1>17. Todo App Phase 5</h1>
+      <TodoAppPhase5 />
       {/* ============================================================================= */}
     </div>
   );
