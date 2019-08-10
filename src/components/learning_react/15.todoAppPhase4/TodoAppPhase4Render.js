@@ -6,10 +6,18 @@ class TodoAppPhase4Rendeer extends React.Component {
     super();
     this.state = { checked: props.todo, text: props.text };
   }
+
+  handleChange() {
+    console.log("this is changed!");
+  }
   render() {
     return (
       <div className="todo-item">
-        <input type="checkbox" checked={this.state.checked} />
+        <input
+          type="checkbox"
+          checked={this.state.checked}
+          onChange={this.handleChange}
+        />
         <p>{this.state.text}</p>
       </div>
     );
