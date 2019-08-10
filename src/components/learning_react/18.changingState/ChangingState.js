@@ -4,8 +4,6 @@ class ChangingState extends React.Component {
   constructor() {
     super();
     this.state = { count: 0 };
-    // this.onClick = this.changeState.bind(this);
-    // this.onClick = this.changeState.bind(this);
   }
 
   changeState() {
