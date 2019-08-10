@@ -15,12 +15,23 @@ class ChangingState extends React.Component {
     this.setState({ count: 0 });
   }
 
+  plusHundered() {
+    this.setState(prevState => {
+      return {
+        count: prevState.count + 100
+      };
+    });
+  }
+
   render() {
     return (
       <div>
         <h1>{this.state.count}</h1>
         <button count={this.state.count} onClick={() => this.changeState()}>
-          Change State!
+          Change State +1 !
+        </button>
+        <button count={this.state.count} onClick={() => this.plusHundered()}>
+          Change State +100!
         </button>
         <button onClick={() => this.restartState()}> Restart State </button>
       </div>
