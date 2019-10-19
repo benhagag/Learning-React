@@ -27,7 +27,7 @@ class TodoAppPhase6 extends React.Component {
     // Remember not to modify prevState directly, but instead to return a new version of state with the change you want included in that update. (Think how you might use the `.map` method to do this)
     this.setState(prevState => {
       const updateTodos = prevState.todos.map(todo => {
-        if (todo.id === id) todo.completed = !todo.completed;
+        if (todo.id === id) return { ...todo, completed: !todo.completed }; // this way by the spread we do not change the prevState we return only the new value to the updatedTodos
         return todo;
       });
       return {
