@@ -28,6 +28,18 @@ class TodoAppPhase6 extends React.Component {
     this.setState(prevState => {
       const updateTodos = prevState.todos.map(todo => {
         if (todo.id === id) return { ...todo, completed: !todo.completed }; // this way by the spread we do not change the prevState we return only the new value to the updatedTodos
+
+        /*
+         #SPREAD JS
+         # the spread syntax allows the elements of our array to expand.
+         # EXAMPLE:
+            var mid = [3,4];
+            var arr = [1, 2, ...mid, 5, 6];
+          # RESULT of var arr
+            [1, 2, 3, 4, 5, 6]
+          # the spread ... on mid array inside arr array expand the elements of the arr array by adding the elements of the mid array into the arr array,  *  and NOT add the mid array itself into the arr array!  *
+          # explanation about spread : https://codeburst.io/javascript-es6-the-spread-syntax-f5c35525f754
+        */
         return todo;
       });
       return {
