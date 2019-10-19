@@ -26,7 +26,7 @@ import TodoAppPhase4 from "./components/learning_react/15.todoAppPhase4/TodoAppP
 import HandlingEvents from "./components/learning_react/16.handlingEvents/HandlingEvents";
 import TodoAppPhase5 from "./components/learning_react/17.todoAppPhase5/TodoAppPhase5";
 import ChangingState from "./components/learning_react/18.changingState/ChangingState";
-
+import TodoAppPhase6 from "./components/learning_react/19.todoAppPhase6/TodoAppPhase6";
 //=======================================================================================================================
 function App() {
   return (
@@ -84,6 +84,8 @@ function App() {
       <TodoAppPhase5 />
       <h1>18. Change State</h1>
       <ChangingState />
+      <h1>19. TODO App Phase 6</h1>
+      <TodoAppPhase6 />
       {/* ============================================================================= */}
     </div>
   );
