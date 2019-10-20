@@ -37,7 +37,11 @@ class TodoAppPhase6 extends React.Component {
             var arr = [1, 2, ...mid, 5, 6];
           # RESULT of var arr
             [1, 2, 3, 4, 5, 6]
+<<<<<<< HEAD
           # the spread ... on mid array inside arr array expand the elements of the arr array by adding the elements of the mid array into the arr array,  *   and NOT add the mid array itself into the arr array!   *
+=======
+          # the spread ... on mid array inside arr array expand the elements of the arr array by adding the elements of the mid array into the arr array,  *  and NOT add the mid array itself into the arr array!  *
+>>>>>>> e76e9b160ff5656db588c052ebbd9efcc8679232
           # explanation about spread : https://codeburst.io/javascript-es6-the-spread-syntax-f5c35525f754
           # the spread ... on mid array expand the elements of the arr by adding the elements of the mid array into the arr array, and NOT add the mid array itself into the arr array!
         */
