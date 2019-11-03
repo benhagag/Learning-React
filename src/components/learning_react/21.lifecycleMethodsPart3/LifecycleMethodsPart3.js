@@ -23,7 +23,7 @@ class LifecycleMethodPart3 extends React.Component {
     });
   }
 
-  // first time the component is renderd it calls to componentDidMount() method
+  // first time the component is renderd it calls to componentDidMount()  method
   componentDidMount() {
     console.log("DID MOUNT");
   }
