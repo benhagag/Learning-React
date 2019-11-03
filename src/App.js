@@ -28,6 +28,7 @@ import TodoAppPhase5 from "./components/learning_react/17.todoAppPhase5/TodoAppP
 import ChangingState from "./components/learning_react/18.changingState/ChangingState";
 import TodoAppPhase6 from "./components/learning_react/19.todoAppPhase6/TodoAppPhase6";
 import LifecycleMethodsPart1 from "./components/learning_react/20.lifecycleMethodsPart1/LifecycleMethodsPart1";
+import LifecycleMethodsPart3 from "./components/learning_react/21.lifecycleMethodsPart3/LifecycleMethodsPart3";
 //=======================================================================================================================
 function App() {
   return (
@@ -87,8 +88,10 @@ function App() {
       <ChangingState />
       <h1>19. TODO App Phase 6</h1>
       <TodoAppPhase6 />
-      <h1>19. Lifecycle Methods Part 1</h1>
+      <h1>20. Lifecycle Methods Part 1</h1>
       <LifecycleMethodsPart1 />
+      <h1>21. Lifecycle Methods Part 3</h1>
+      <LifecycleMethodsPart3 />
       {/* ============================================================================= */}
     </div>
   );
