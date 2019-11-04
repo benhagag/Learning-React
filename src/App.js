@@ -30,6 +30,7 @@ import TodoAppPhase6 from "./components/learning_react/19.todoAppPhase6/TodoAppP
 import LifecycleMethodsPart1 from "./components/learning_react/20.lifecycleMethodsPart1/LifecycleMethodsPart1";
 import LifecycleMethodsPart3 from "./components/learning_react/21.lifecycleMethodsPart3/LifecycleMethodsPart3";
 import ReactConditionalRender from "./components/learning_react/22.reactConditionalRender/ReactConditionalRender";
+import ReactConditionalRender2 from "./components/learning_react/23.reactConditionalRender2/ReactConditionalRender2";
 //=======================================================================================================================
 function App() {
   return (
@@ -95,6 +96,8 @@ function App() {
       <LifecycleMethodsPart3 />
       <h1>22.React Conditional Render</h1>
       <ReactConditionalRender />
+      <h1>23.React Conditional Render 2</h1>
+      <ReactConditionalRender2 />
       {/* ============================================================================= */}
     </div>
   );
