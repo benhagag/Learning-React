@@ -106,7 +106,7 @@ function App() {
       </h1>
       <ReactConditionalRenderPracticeByClassComponent />
       <h1>
-        25.React Conditional Practice based on class component and using
+        24.1.React Conditional Practice based on class component and using
         this.state
       </h1>
       <ReactConditionalRenderPracticeByFunctionalComponent />
