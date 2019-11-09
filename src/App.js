@@ -33,6 +33,8 @@ import ReactConditionalRender from "./components/learning_react/22.reactConditio
 import ReactConditionalRender2 from "./components/learning_react/23.reactConditionalRender2/ReactConditionalRender2";
 import ReactConditionalRenderPracticeByFunctionalComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByFunctionalComponent";
 import ReactConditionalRenderPracticeByClassComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByClassComponent";
+import TodoAppPhase7 from "./components/learning_react/25.todoAppPhase7/TodoAppPhase7";
+
 //=======================================================================================================================
 function App() {
   return (
@@ -110,6 +112,8 @@ function App() {
         this.state
       </h1>
       <ReactConditionalRenderPracticeByFunctionalComponent />
+      <h1>25.React Todo App Phase7</h1>
+      <TodoAppPhase7 />
       {/* ============================================================================= */}
     </div>
   );
