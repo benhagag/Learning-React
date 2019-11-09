@@ -31,6 +31,8 @@ import LifecycleMethodsPart1 from "./components/learning_react/20.lifecycleMetho
 import LifecycleMethodsPart3 from "./components/learning_react/21.lifecycleMethodsPart3/LifecycleMethodsPart3";
 import ReactConditionalRender from "./components/learning_react/22.reactConditionalRender/ReactConditionalRender";
 import ReactConditionalRender2 from "./components/learning_react/23.reactConditionalRender2/ReactConditionalRender2";
+import ReactConditionalRenderPracticeByFunctionalComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByFunctionalComponent";
+import ReactConditionalRenderPracticeByClassComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByClassComponent";
 //=======================================================================================================================
 function App() {
   return (
@@ -98,6 +100,16 @@ function App() {
       <ReactConditionalRender />
       <h1>23.React Conditional Render 2</h1>
       <ReactConditionalRender2 />
+      <h1>
+        24.React Conditional Practice based on functional component and using
+        State Hook
+      </h1>
+      <ReactConditionalRenderPracticeByClassComponent />
+      <h1>
+        25.React Conditional Practice based on class component and using
+        this.state
+      </h1>
+      <ReactConditionalRenderPracticeByFunctionalComponent />
       {/* ============================================================================= */}
     </div>
   );
