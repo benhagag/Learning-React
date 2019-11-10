@@ -34,6 +34,7 @@ import ReactConditionalRender2 from "./components/learning_react/23.reactConditi
 import ReactConditionalRenderPracticeByFunctionalComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByFunctionalComponent";
 import ReactConditionalRenderPracticeByClassComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByClassComponent";
 import TodoAppPhase7 from "./components/learning_react/25.todoAppPhase7/TodoAppPhase7";
+import FethcingAPIdata from "./components/learning_react/26.fetchingAPIdata/FethcingAPIdata";
 
 //=======================================================================================================================
 function App() {
@@ -114,6 +115,8 @@ function App() {
       <ReactConditionalRenderPracticeByFunctionalComponent />
       <h1>25.React Todo App Phase7</h1>
       <TodoAppPhase7 />
+      <h1>26.React Fetching Data from API</h1>
+      <FethcingAPIdata />
       {/* ============================================================================= */}
     </div>
   );
