@@ -35,6 +35,7 @@ import ReactConditionalRenderPracticeByFunctionalComponent from "./components/le
 import ReactConditionalRenderPracticeByClassComponent from "./components/learning_react/24.reactConditionalrenderPractice/ReactConditionalRenderPracticeByClassComponent";
 import TodoAppPhase7 from "./components/learning_react/25.todoAppPhase7/TodoAppPhase7";
 import FethcingAPIdata from "./components/learning_react/26.fetchingAPIdata/FethcingAPIdata";
+import FormsPart1 from "./components/learning_react/27.formsPatr1/FormsPart1";
 
 //=======================================================================================================================
 function App() {
@@ -117,6 +118,8 @@ function App() {
       <TodoAppPhase7 />
       <h1>26.React Fetching Data from API</h1>
       <FethcingAPIdata />
+      <h1>27.React Forms part 1</h1>
+      <FormsPart1 />
       {/* ============================================================================= */}
     </div>
   );
