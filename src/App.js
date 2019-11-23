@@ -36,6 +36,7 @@ import ReactConditionalRenderPracticeByClassComponent from "./components/learnin
 import TodoAppPhase7 from "./components/learning_react/25.todoAppPhase7/TodoAppPhase7";
 import FethcingAPIdata from "./components/learning_react/26.fetchingAPIdata/FethcingAPIdata";
 import FormsPart1 from "./components/learning_react/27.formsPatr1/FormsPart1";
+import FormsPart2 from "./components/learning_react/28.formsPart2/FormsPart2";
 
 //=======================================================================================================================
 function App() {
@@ -120,6 +121,8 @@ function App() {
       <FethcingAPIdata />
       <h1>27.React Forms part 1</h1>
       <FormsPart1 />
+      <h1>28.React Forms part 2</h1>
+      <FormsPart2 />
       {/* ============================================================================= */}
     </div>
   );
