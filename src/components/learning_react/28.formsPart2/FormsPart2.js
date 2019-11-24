@@ -114,9 +114,9 @@ class FormsPart1 extends React.Component{
                 <label>
                     Favorite Color
                     <select value={this.state.favColor} name="favColor" onChange={this.handleChange}>
-                        <option value="blue">blue</option>
-                        <option value="red">red</option>
-                        <option value="yellow">yellow</option>
+                        <option value="blue">Blue</option>
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
                     </select>
                 </label>
                 

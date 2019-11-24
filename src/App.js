@@ -37,6 +37,7 @@ import TodoAppPhase7 from "./components/learning_react/25.todoAppPhase7/TodoAppP
 import FethcingAPIdata from "./components/learning_react/26.fetchingAPIdata/FethcingAPIdata";
 import FormsPart1 from "./components/learning_react/27.formsPatr1/FormsPart1";
 import FormsPart2 from "./components/learning_react/28.formsPart2/FormsPart2";
+import ReactFormPractice from "./components/learning_react/29.reactFormPractice/ReactFormPractice"
 
 //=======================================================================================================================
 function App() {
@@ -123,6 +124,8 @@ function App() {
       <FormsPart1 />
       <h1>28.React Forms part 2</h1>
       <FormsPart2 />
+      <h1>29.React Form practice</h1>
+      <ReactFormPractice />
       {/* ============================================================================= */}
     </div>
   );
