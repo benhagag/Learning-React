@@ -38,6 +38,7 @@ import FethcingAPIdata from "./components/learning_react/26.fetchingAPIdata/Feth
 import FormsPart1 from "./components/learning_react/27.formsPatr1/FormsPart1";
 import FormsPart2 from "./components/learning_react/28.formsPart2/FormsPart2";
 import ReactFormPractice from "./components/learning_react/29.reactFormPractice/ReactFormPractice"
+import FormContainer from "./components/learning_react/30.formArchitecture/FormContainer"
 
 //=======================================================================================================================
 function App() {
@@ -126,6 +127,8 @@ function App() {
       <FormsPart2 />
       <h1>29.React Form practice</h1>
       <ReactFormPractice />
+      <h1>30. React From Architecture</h1>
+      <FormContainer />
       {/* ============================================================================= */}
     </div>
   );
